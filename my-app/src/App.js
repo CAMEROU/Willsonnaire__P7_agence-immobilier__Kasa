@@ -1,11 +1,11 @@
 import './App.css';
-import Banner from './Components/Banner';
-import {bannersData} from './data';
+import Offers from './Components/Offers';
+import {offersData} from './data';
 
 function App() {
   return (
     <div className="App">
-      <Banner banners={bannersData} />
+      <Offers offers={offersData} />
     </div>
   );
 }
